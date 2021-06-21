@@ -1,23 +1,7 @@
-@charset "UTF-8";
-/* css/src/project_01_main.css */
+/* pc : 1600~ */
+/* css/ */
 
-/* ===================================== */
-/* 변수 설정 */
-@import url("../main/variable.css");
-/* 공통변수 : 1280기준 */
-@import url("../main/basic_layout.css");
-/* 스마트폰 세로 : ~479px */
-@import url("../main/phone_v.css");
-/* 스마트폰 가로 : 480~767px */
-@import url("../main/phone_h.css");
-/* 태블릿 : 768~1279px */
-@import url("../main/tablet.css");
-/* 노트북 : 1280~1599px */
-@import url("../main/laptop.css");
-/* pc : 1600px~ */
-@import url("../main/pc.css");
-/* ===================================== */
-
+@media screen and (min-width:1600px) {
 
 #wrap {
   position:relative; z-index:1000;
@@ -55,27 +39,20 @@ h1 a {
 }
 .navBox ul {
   width: 100%; height: auto;
-  background-color: #aba;
+  /* background-color: #aba; */
 }
 .navBox .ul_01 > li {
   float:left;
-  width:80px; height:20px;
-  margin-top:5px; margin-left:60px; margin-bottom:20px;
+  width:170px; height:50px;
+  margin-left:20px;
   text-align: center;
-  font-size:14px;
   /* background-color: #0cf; */
 }
-.navBox ul li:nth-child(4) {
-  background-image: url("../../img/search.png");
-  background-size: 20% auto;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  cursor:pointer;
-}
-.navBox .ol_01 > li {
+.navBox .ul_02 > li {
+  /* position:relative; */
   float:left;
-  width:80px; height:20px;
-  margin-top:10px; margin-left:30px;
+  width:70px; height:40px;
+  margin-left:20px;
   text-align: center;
   /* background-color: #fc0; */
 }
@@ -353,3 +330,4 @@ h1 a {
   background-color: #333
 } */
 /* infoBox ================================ */
+}
