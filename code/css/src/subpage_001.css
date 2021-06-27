@@ -9,7 +9,8 @@
 /* wrap ================================= */
 
 #headBox {
-  position:fixed;
+  position:fixed; top: 0; left: 0;
+  z-index: 1500;
   width: 100%;
   height:auto;
   border-bottom:2px solid #fab40a;
@@ -18,7 +19,6 @@
 .headBox_inner {
   width: 100%; height: 80px;
   margin:auto;
-  /* background-color: #fab40a; */
 }
 h1 a {
   position:absolute;
@@ -28,21 +28,12 @@ h1 a {
   background-repeat: no-repeat;
   background-size: 120% auto;
   background-position: 50% 50%;
-  /* background-color: #fff; */
 }
-.navBox {
-  /* float:right; */
+.nav_box {
   width: 700px; height: 70px;
   margin:auto;
-  /* padding-left:300px; */
-  /* background-color: #bbd; */
 }
-/* .navBox ul {
-  width: 100%; height: auto;
-  margin:auto;
-  background-color: #aba;
-} */
-.navBox .ol_01 li {
+.nav_box li {
   float:left;
   width:80px; height:20px;
   margin:auto; 
@@ -50,32 +41,29 @@ h1 a {
   text-align: center;
   font-weight:700;
   font-size:20px;
-  /* color:#fa9b37; */
-  /* background-color: #fc0; */
 }
-.navBox .ol_01 li:hover,
-.navBox .ol_01 li:focus {
-  color:#fab40a;
+.nav_box ol li a:hover,
+.nav_box ol li a:focus {
+  color:#fa9b37;
 }
-
-.navBox_02 {
-  /* float:right; */
+.nav_box_02 {
   width: 150px; height: 70px;
   margin:auto;
-  margin-top:-80px; margin-right:100px;
-  /* background-color: #999; */
+  margin-top:-70px; margin-right:100px;
 }
-.navBox_02 .ul_01 li {
+.nav_box_02 ul li {
   float:left;
   width:60px; height:20px;
   margin-top:10px; margin-left:10px; margin-bottom:5px;
   text-align: center;
   font-weight:700;
   font-size:14px;
-  /* color:#fab40a; */
-  /* background-color: #0cf; */
 }
-.navBox_02 ul li:nth-child(4) {
+.nav_box_02 ul li a:hover,
+.nav_box_02 ul li a:focus {
+  color:#fab40a;
+}
+.nav_box_02 ul li:nth-child(4) {
   background-image: url("../../img/search.png");
   background-size: 25% auto;
   background-repeat: no-repeat;
