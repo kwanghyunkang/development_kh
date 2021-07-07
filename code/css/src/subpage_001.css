@@ -61,7 +61,7 @@ h1 a {
 }
 .nav_box_02 ul li a:hover,
 .nav_box_02 ul li a:focus {
-  color:#fab40a;
+  color:#fa9b37;
 }
 .nav_box_02 ul li:nth-child(4) {
   background-image: url("../../img/search.png");
