@@ -5,10 +5,8 @@
 @import url("../mainpage/variable.css");
 /* 공통변수  1280기준 - 구형브라우저 포함 */
 @import url("../mainpage/a_basic_layout.css");
-/* phone_v : ~479 */
+/* phone_v : ~767 */
 @import url("../mainpage/b_phone_v.css");
-/* phone_h : 480 ~ 767 */
-@import url("../mainpage/c_phone_h.css");
 /* tablet  : 768 ~ 1279 */
 @import url("../mainpage/d_tablet.css");
 /* laptop  : 1280 ~ 1599 */

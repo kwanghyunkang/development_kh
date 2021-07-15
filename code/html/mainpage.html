@@ -35,9 +35,9 @@
     <header id="headBox">
       <div class="headBox_inner container clearfix">
         <h1><a href="./mainpage.html"><span class="blind">봉구스 밥버거</span></a></h1>
-        <div class="nav_box">
+        <div class="gnb">
         <h2 class="blind">메뉴 list</h2>
-          <ol>
+          <ol class="gnb_list">
             <li><a href="./subpage_001.html">메뉴</a></li>
             <li><a href="#">단체 주문</a></li>
             <li><a href="#">매장 안내</a></li>
@@ -46,14 +46,25 @@
             <li><a href="#">회사 소개</a></li> 
           </ol>
         </div>
-        <div class="nav_box_02">
-          <ul>
+
+        <div class="unb">
+          <ul class="unb_list blind_wrap">
             <li><a href="#">로그인</a></li>
-            <li><a href="#">회원 가입</a></li>
-            <li><a href="#">고객 센터</a></li>
-            <li><a href="#"><span class="blind">검색</span></a></li>
+            <!-- <li><a href="#">회원 가입</a></li> -->
+            <!-- <li><a href="#">고객 센터</a></li> -->
+            <li><a href="#">검색</a></li>
           </ul>
-        </div>     
+        </div> 
+
+        <div class="gnb_btn">
+          <button type="button">
+            <span class="blind">전체 메뉴</span>
+            <i class="line line1"></i>
+            <i class="line line2"></i>
+            <i class="line line3"></i>
+          </button>
+        </div>
+            
       </div>
     </header>
     <!-- headBox // ============================= -->
@@ -189,8 +200,10 @@
 
   </div>
   <!-- script -->
-  <!-- <script src="../js/jquery/jquery-3.6.0.min.js"></script>
+  <script src="../js/jquery/jquery-3.6.0.min.js"></script>
   <script src="../js/jquery/jquery-ui.min.js"></script>  
-  <script src="../js/src/mainpage.js"></script> -->
+  <script src="../js/jquery/device_temp.js"></script>
+
+  <script src="../js/src/mainpage.js"></script>
 </body>
 </html>
