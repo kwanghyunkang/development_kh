@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<!-- html/mainpage.html -->
+<!-- html/js_023_rwd_header.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--[if IE]>
+  <!--[if IE]> 
     <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
     <sccipt src="../ie/ie9js/ie9.min.js"></script>
     <script src="../ie/csspie/PIE.js"></script>
     <script src="../ie/responsive.min.js"></script>
-    <![endif] -->
-
+    <![endif]-->
   <link rel="shortcut icon" href="favicon.png" type="image/png"> 
   <link rel="apple-touch-icon" href="favicon.png">
 
@@ -30,45 +29,45 @@
 <body>
   <!-- layout -->
   <div id="wrap">
-    <!-- wrap // ================================ -->
-    
+
     <header id="headBox">
-      <div class="headBox_inner container">
+      <div class="container">
         <h1><a href="./mainpage.html"><span class="blind">봉구스 밥버거</span></a></h1>
-        <div class="gnb">
-        <h2 class="blind">메뉴 list</h2>
-          <ol class="gnb_list">
-            <li><a href="./subpage_001.html">메뉴</a></li>
-            <li><a href="#">단체 주문</a></li>
-            <li><a href="#">매장 안내</a></li>
-            <li><a href="#">창업 안내</a></li>
-            <li><a href="#">새 소식</a></li>
-            <li><a href="#">회사 소개</a></li> 
-          </ol>
-        </div>
-
-        <div class="unb">
+        <nav id="unb">
+          <h2 class="blind">유틸리티 내비게이션</h2>
           <ul class="unb_list blind_wrap">
-            <li><a href="#"><i class="fas fa-user"></i><span>로그인</span></a></li>
-            <!-- <li><a href="#">회원 가입</a></li> -->
-            <!-- <li><a href="#">고객 센터</a></li> -->
+            <li><a href="#"><i class="fas fa-globe"></i><span>언어</span></a></li>
             <li><a href="#"><i class="fas fa-search"></i><span>검색</span></a></li>
+            <li><a href="#"><i class="fas fa-user"></i><span>로그인</span></a></li>
           </ul>
-        </div> 
+        </nav>
 
-        <div class="gnb_btn">
-          <button type="button">
-            <span class="blind">전체 메뉴</span>
-            <i class="line line1"></i>
-            <i class="line line2"></i>
-            <i class="line line3"></i>
-          </button>
-        </div>
-            
+        <nav id="gnb">
+          <h2 class="blind">메뉴 영역</h2>
+
+          <div class="gnb_btn">
+            <button type="button">
+              <span class="blind">전체 메뉴</span>
+              <i class="line line1"></i>
+              <i class="line line2"></i>
+              <i class="line line3"></i>
+            </button>
+          </div>
+
+          <ul class="gnb_list">
+            <li><div class="nav_title"><a href="./subpage_001.html">메뉴</a></div></li>
+            <li><div class="nav_title"><a href="#">단체 주문</a></div></li>
+            <li><div class="nav_title"><a href="#">매장 안내</a></div></li>
+            <li><div class="nav_title"><a href="#">창업 안내</a></div></li>
+            <li><div class="nav_title"><a href="#">새 소식</a></div></li>
+            <li><div class="nav_title"><a href="#">회사 소개</a></div></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <!-- headBox // ============================= -->
 
+    <!-- headBox // =========================================================== -->
+    
     <section id="viewBox">
       <h2 class="blind">광고</h2>
       <div class="viewBox_inner">
@@ -83,7 +82,7 @@
         </div>
       </div>
     </section>
-    <!-- viewBox // ============================= -->
+    <!-- viewBox // =========================================================== -->
 
     <section id="contentBox">
       <h2 class="blind">best menu</h2>
@@ -94,7 +93,6 @@
           <ul class="burger_menu">
             <li>
               <div class="img_set">
-                <!-- 봉구스 이미지 -->
               </div>
               <div class="product">
                 <dl> <dt class="blind">제품명</dt> <dd>봉구 퀸</dd> </dl>
@@ -104,7 +102,6 @@
 
             <li>
               <div class="img_set">
-                <!-- 봉구스 이미지 -->
               </div>
               <div class="product">
                 <dl> <dt class="blind">제품명</dt> <dd>치즈치킨마요</dd> </dl>
@@ -114,7 +111,6 @@
             
             <li>
               <div class="img_set">
-                <!-- 봉구스 이미지 -->
               </div>
               <div class="product">
                 <dl> <dt class="blind">제품명</dt> <dd>치즈마요양념치킨</dd> </dl>
@@ -124,7 +120,6 @@
             
             <li>
               <div class="img_set">
-                <!-- 봉구스 이미지 -->
               </div>
               <div class="product">
                 <dl> <dt class="blind">제품명</dt> <dd>치즈해봉이</dd> </dl>
@@ -134,7 +129,6 @@
         
             <li>
               <div class="img_set">
-                <!-- 봉구스 이미지 -->
               </div>
               <div class="product">
                 <dl> <dt class="blind">제품명</dt> <dd>봉구 킹</dd> </dl>
@@ -146,18 +140,18 @@
           <div class="menu_more"><a href="./subpage_001.html">메뉴 더보기 &rarr;</a></div>
         </div>
       </section>
-      <!-- contentBox // ========================== -->
+      <!-- contentBox // ============================================================= -->
       
       <article id="orderBox">
         <h2 class="blind">단체 주문</h2>
         <div class="orderBox_inner">
           <ul class="order">
-            <li><a href="#">단체 주문</a></li>
-            <li><a href="#">group order</a></li>
+            <li><a href="#">단체 주문<br />group order</a></li>
+            <!-- <li><a href="#">group order</a></li> -->
           </ul>
         </div>
       </article>
-      <!-- orderBox // ============================ -->
+      <!-- orderBox // =============================================================== -->
       
       <article id="locationBox">
       <h2 class="blind">매장 찾기</h2>
@@ -168,7 +162,7 @@
       </div>
     </article>
 
-    <!-- locationBox // ========================= -->
+    <!-- locationBox // ================================================== -->
 
     <article id="introduceBox">
       <h2 class="blind">창업 안내</h2>
@@ -179,7 +173,7 @@
       </div>
     </article>
         
-      <!-- introduceBox // ======================= -->
+      <!-- introduceBox // ================================================ -->
       
       <footer id="infoBox">
         <h2 class="blind">회사 소개</h2>
@@ -196,14 +190,20 @@
           </ul>
         </div>
       </footer>
-    <!-- infoBox // ============================= -->
+    <!-- infoBox // ====================================================== -->
+
 
   </div>
   <!-- script -->
   <script src="../js/jquery/jquery-3.6.0.min.js"></script>
-  <script src="../js/jquery/jquery-ui.min.js"></script>  
+  <script src="../js/jquery/jquery-ui.min.js"></script>
   <script src="../js/jquery/device_temp.js"></script>
-
+  <!-- $.ajax(), 선택자 load() -->
   <script src="../js/src/mainpage.js"></script>
+
+  <!-- <script src="../js/rwd_header/header_smartphone.js"></script> -->
+  <script src="../js/main_rwd/b_tablet.js"></script>
+  <script src="../js/main_rwd/c_laptop.js"></script>
+  <!-- <script src="../js/rwd_header/header_pc.js"></script> -->
 </body>
 </html>

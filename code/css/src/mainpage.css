@@ -2,15 +2,15 @@
 
 /* ================================================ */
 /* 변수 설정 */
-@import url("../mainpage/variable.css");
+@import url("../rwd_mainpage/variable.css");
 /* 공통변수  1280기준 - 구형브라우저 포함 */
-@import url("../mainpage/a_basic_layout.css");
+@import url("../rwd_mainpage/a_basic_layout.css");
 /* phone_v : ~767 */
-@import url("../mainpage/b_phone_v.css");
+@import url("../rwd_mainpage/b_phone.css");
 /* tablet  : 768 ~ 1279 */
-@import url("../mainpage/d_tablet.css");
+@import url("../rwd_mainpage/c_tablet.css");
 /* laptop  : 1280 ~ 1599 */
-@import url("../mainpage/e_laptop.css");
+@import url("../rwd_mainpage/d_laptop.css");
 /* pc      : 1600~ */
-@import url("../mainpage/f_pc.css");
+@import url("../rwd_mainpage/e_pc.css");
 /* ================================================ */
