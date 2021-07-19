@@ -1,0 +1,155 @@
+/* css/src/subpage_002.css */
+
+#wrap {
+  position:relative; z-index:1000;
+  width: auto; height: auto;
+  box-sizing: border-box;
+}
+/* wrap ========================================================== */
+
+/* headBox */
+#headBox {
+  position:fixed; z-index:1000;
+  width: 100%; height: 5rem;
+  padding:1rem; box-sizing: border-box;
+  border-bottom:2px solid #fab40a;
+  background-color: #fff;
+}
+.container { 
+  width: 100%; max-width: 87.5rem; height: 100%; 
+  margin:auto; }
+
+h1 a {
+  position:absolute;
+  width: 70px; height: 70px;
+  margin-top:-10px; margin-left:-50px; 
+  background-image: url("../../img/download.png");
+  background-repeat: no-repeat;
+  background-size: 120% auto;
+  background-position: 50% 50%;
+}
+
+#unb {
+  float:right;
+  width: 6.25rem; height: 3rem;
+  padding:0.5rem; box-sizing: border-box;
+  background-color: #fff;
+}
+
+.unb_list { width: 100%; height: 100%; }
+
+.unb_list li {
+  float:right;
+  width:33.333333%; height: 100%;
+  padding:0.125rem; box-sizing: border-box;
+  text-align:center; line-height:1.5rem;
+ }
+
+ #gnb {
+  position:absolute;
+  bottom:0.5rem; left:50%; transform:translateX(-50%);
+  width: 50%; min-width:25rem; height: 2rem;
+  margin-top:1rem;
+  box-sizing: border-box;
+  /* background-color: #fa0; */
+}
+
+.gnb_btn { display: none; }
+
+.gnb_list { width: 100%; height: auto; }
+
+.gnb_list > li {
+  float:left;
+  width:15%; height: auto;
+  padding-left:0.5rem; box-sizing: border-box;
+  font-size:20px; text-align:center;
+} 
+.gnb_list li a:hover,
+.gnb_list li a:focus {
+  color:#fa9b37;
+}
+
+.gnb_list > li:first-child { padding-left: 0;}
+
+.nav_title {
+  width:80%; height: 2rem; 
+  margin:auto;
+  font-weight:700; text-transform:capitalize;
+  text-align:center; line-height:1rem;
+  /* background-color: #fde; */
+}
+.unb_list li a:hover,
+.unb_list li a:focus {
+  color:#fa9b37;
+}
+
+.nav_content {
+  display: none;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+/* .gnb_list > li:hover .nav_content { display: block; } */
+
+.gnb_list li:last-child { margin-bottom: 0; }
+
+.nav_content li {
+  padding:0.5rem; box-sizing:border-box;
+  font-size:0.875rem;
+}
+
+/* headBox // ============================================================ */
+
+#introBox {
+  width: 1700px; 
+  height:1700px; 
+  padding-top:80px;
+  margin:auto;
+  /* background-color:#bbf; */
+}
+.intro_view {
+  width: 1700px; height: 450px;
+  margin:auto;
+  background-image: url("../../img/carnivore-style-b-ur-6LsdOI-unsplash.jpg");
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: 80% 60%;
+  background-color: #DDE1EC;
+}
+.intro_view p {
+  font-size:36px;
+  padding-left:150px; padding-top:130px;
+}
+
+/* introBox // ============================================================= */
+
+#infoBox {
+  width: auto;
+  height:auto;
+  padding-top:40px; padding-bottom:70px;
+  /* border-top:5px solid #fab40a; */
+  background-color: #fab40a;
+}
+.infoBox_inner {
+  width:1100px; height: 200px;
+  margin:auto;
+  /* background-color: #faf; */
+}
+.infoBox_inner li:nth-child(1) { 
+  float:left;
+  width: 100px; height: 180px;
+  margin-right:10px;
+  background-image: url("../../img/download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.infoBox_inner li:nth-child(2) { float:right; font-weight:700; margin-bottom:10px;}
+.infoBox_inner li:nth-child(3) { font-weight:700; margin-bottom:10px;}
+.infoBox_inner li:nth-child(4) { margin-bottom:10px;}
+.infoBox_inner li:nth-child(5) { margin-bottom:10px;}
+.infoBox_inner li:nth-child(6) { margin-bottom:10px;}
+.infoBox_inner li:nth-child(7) { margin-bottom:10px;}
+.infoBox_inner li:nth-child(8) { margin-bottom:10px;}
+
+/* infoBox // =========================================================== */
