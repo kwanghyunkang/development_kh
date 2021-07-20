@@ -61,7 +61,6 @@
     }
     .line1 { transform: translateY(-0.7rem);}
     .line3 { transform: translateY(0.7rem); }
-
     #gnb.act .line1 { transform: translateY(0) rotate(45deg); }
     /* #gnb.act .line1 { width:0; } */
     #gnb.act .line2 { width:0; height:0; opacity:0; }
@@ -79,7 +78,6 @@
       overflow-x: hidden;
       overflow-y: auto;
     }
-
     .gnb_list li {
       width: 100%; height: auto;
       padding:0.5rem; box-sizing: border-box;
@@ -93,7 +91,6 @@
       font-weight:700;
     } 
     .gnb_list li:last-child { margin-bottom:0; }
-    
     .nav_content { 
       padding-left:2rem;
       background-color: #efefef;
