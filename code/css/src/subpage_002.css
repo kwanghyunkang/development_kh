@@ -44,6 +44,8 @@ h1 a {
   padding:0.125rem; box-sizing: border-box;
   text-align:center; line-height:1.5rem;
  }
+.unb_list li a:hover,
+.unb_list li a:focus { color:#fa9b37; }
 
  #gnb {
   position:absolute;
@@ -65,9 +67,7 @@ h1 a {
   font-size:20px; text-align:center;
 } 
 .gnb_list li a:hover,
-.gnb_list li a:focus {
-  color:#fa9b37;
-}
+.gnb_list li a:focus { color:#fa9b37; }
 
 .gnb_list > li:first-child { padding-left: 0;}
 
@@ -77,10 +77,6 @@ h1 a {
   font-weight:700; text-transform:capitalize;
   text-align:center; line-height:1rem;
   /* background-color: #fde; */
-}
-.unb_list li a:hover,
-.unb_list li a:focus {
-  color:#fa9b37;
 }
 
 .nav_content {
@@ -110,7 +106,7 @@ h1 a {
 .intro_view {
   width: 1700px; height: 450px;
   margin:auto;
-  background-image: url("../../img/carnivore-style-b-ur-6LsdOI-unsplash.jpg");
+  /* background-image: url("../../img/carnivore-style-b-ur-6LsdOI-unsplash.jpg"); */
   background-size: 60% auto;
   background-repeat: no-repeat;
   background-position: 80% 60%;

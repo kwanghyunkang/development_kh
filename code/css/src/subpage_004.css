@@ -1,4 +1,4 @@
-/* css/src/subpage_006.css */
+/* css/src/subpage_004.css */
 
 #wrap {
   position:relative; z-index:1000;
@@ -46,7 +46,7 @@ h1 a {
  }
 .unb_list li a:hover,
 .unb_list li a:focus { color:#fa9b37; }
- 
+
  #gnb {
   position:absolute;
   bottom:0.5rem; left:50%; transform:translateX(-50%);
@@ -78,6 +78,7 @@ h1 a {
   text-align:center; line-height:1rem;
   /* background-color: #fde; */
 }
+
 .nav_content {
   display: none;
   margin-top: 1rem;
@@ -85,6 +86,7 @@ h1 a {
 }
 
 /* .gnb_list > li:hover .nav_content { display: block; } */
+
 .gnb_list li:last-child { margin-bottom: 0; }
 
 .nav_content li {
@@ -96,38 +98,23 @@ h1 a {
 
 #introBox {
   width: 1700px; 
-  height:2300px; 
+  height:1700px; 
   padding-top:80px;
   margin:auto;
-  background-color:#ededed;
+  /* background-color:#bbf; */
 }
 .intro_view {
   width: 1700px; height: 450px;
   margin:auto;
-  /* background-image: url("../../img/introBox-image.jpg"); */
-  background-size: 100% auto;
+  /* background-image: url("../../img/carnivore-style-b-ur-6LsdOI-unsplash.jpg"); */
+  background-size: 60% auto;
   background-repeat: no-repeat;
-  background-position: 100% 40%;
-  background-color: #f7f7f7;
+  background-position: 80% 60%;
+  background-color: #DDE1EC;
 }
 .intro_view p {
-  /* font-size:36px; color:#fff; */
+  font-size:36px;
   padding-left:150px; padding-top:130px;
-}
-.bon_section1 {
-  width: 1100px; height: 150px;
-  margin:auto; margin-top:150px;
-  background-color: #dae;
-}
-.bon_section2 {
-  width: 1600px; height: 300px;
-  margin:auto; margin-top:200px;
-  background-color: #fec;
-}
-.bon_section3 {
-  width: 1100px; height: 500px;
-  margin:auto; margin-top:200px;
-  background-color:#aba;
 }
 
 /* introBox // ============================================================= */

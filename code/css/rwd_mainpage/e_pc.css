@@ -253,11 +253,6 @@ h1 a {
   color:#fff;
   /* background-color: #fff; */
 }
-.order:hover,
-.order:focus {
-  border:1px solid #fff;
-}
-
 /* orderBox // =============================================================== */
 
 #locationBox {
