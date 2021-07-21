@@ -101,18 +101,19 @@ h1 a {
 /* headBox // ================================================================== */
 
 #viewBox {
-  width: 1500px; 
+  width:100%; 
   height:700px; 
   margin:auto;
   padding-top:100px;
-  background-image: linear-gradient(90deg,#F9BC0B, #F69230, #B6682A, #7A2123);
+  /* background-image: linear-gradient(90deg,#F9BC0B, #F69230, #B6682A, #7A2123); */
+  background-color: #fafafa;
 }
 .viewBox_inner { 
   position:relative; z-index:0;
-  width: 100%; height: 100%; box-sizing: border-box;
+  width: auto; height: 100%; box-sizing: border-box;
   margin:auto;
   background-image: url("../../img/main007.jpg");
-  background-size: 70% auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
