@@ -153,20 +153,69 @@
       
       <article id="locationBox">
       <h2 class="blind">매장 찾기</h2>
+      
+      <form action="" method="POST">
+        <fieldset>
+          <legend>매장안내</legend>
+
+          <dl class="insert_data birthday">
+            <dt>
+              <label for="userFirstyear">매장찾기
+              <span class="blind">지역을 선택 후, 도시 이름을 작성하시기 바랍니다.</span>
+            </label>
+            </dt>
+
+            <dd>
+              <ul class="locbox_search clearfix">
+                <li>
+                  <label for="userFirstmonth"><span class="blind">지역을 선택하세요.</span></label>
+                  <select name="userFirstmonth" id="userFirstmonth" title="지역" required class="birth_day" >
+                  <option>지역선택</option>
+                  <option value="01">강원</option>
+                  <option value="02">경기/인천</option>
+                  <option value="03">서울</option>
+                  <option value="04">경상/대구/부산</option>
+                  <option value="05">전라/광주</option>
+                  <option value="06">충청/세종/대전</option>
+                  <option value="07">제주</option>
+                  </select>
+                </li>
+
+                <li>
+                  <input type="tel" id="userFirstyear" name="userFirstyear" value="" placeholder="도시"
+                  title="도시" maxlength="4" required class="birth_day" />
+                </li>
+
+                <div class="search_result"><a href="./subpage_003.html">검색하기 &rarr;</a></div>
+              </ul>
+              
+            </dd>
+
+            <dd class="none result">
+              <span>생년월일을 숫자로 정확하게 입력하세요.</span>
+              <span>올바르게 작성되었습니다.</span>
+            </dd>
+          </dl>
+        </fieldset>
+      </form>
+      
       <div class="locBox_inner">
         <ul class="location">
-          <li class="location_narr"><a href="./subpage_003.html">전국 봉구스밥버거 매장을 찾아보세요!</a></li>
+          <li class="location_narr">전국 봉구스밥버거 매장을 찾아보세요!</a></li>
         </ul>
       </div>
+
     </article>
+    
 
     <!-- locationBox // ================================================== -->
 
     <article id="introduceBox">
       <h2 class="blind">창업 안내</h2>
       <div class="introBox_inner">
-        <ul class="introduce">
-          <li class="introduce_narr"><a href="./subpage_004.html">성공적인 창업을 위해 도와드리겠습니다!</a></li>
+        <ul>
+          <li class="introBox_01"></li>
+          <li class="introBox_02"></li>
         </ul>
       </div>
     </article>
@@ -174,8 +223,8 @@
     <!-- introduceBox // ================================================= -->
       
       <footer id="infoBox">
-        <h2><span class="blind">회사 소개</span></h2>
         <address class="infoBox_inner">
+          <h2><span class="blind">회사 소개</span></h2>
             <dl>
               <dt><a href="./subpage_005.html">회사 소개</a></dt>
                 <dd><a href="./subpage_005.html">개인정보 처리방침</a></dd>
