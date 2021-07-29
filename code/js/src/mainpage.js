@@ -61,7 +61,7 @@
   var slidePauseFn = function(){ clearInterval(slideClick); };
     slideGoFn();
 
-  // banner.on( 'mouseenter', function(){ slidePauseFn(); });
-  // banner.on( 'mouseleave', function(){ slideGoFn();    });
+  banner.on( 'mouseenter', function(){ slidePauseFn(); });
+  banner.on( 'mouseleave', function(){ slideGoFn();    });
 
 })(jQuery);
