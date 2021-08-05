@@ -55,9 +55,9 @@
           </div>
 
           <ul class="gnb_list">
-            <li><div class="nav_title"><a href="./subpage_001.html">메뉴</a></div></li>
-            <li><div class="nav_title"><a href="./subpage_002.html">캡슐</a></div></li>
-            <li><div class="nav_title"><a href="./subpage_003.html">머신</a></div></li>
+            <li><div class="nav_title"><a href="./subpage_001.html">네스카페 돌체구스토</a></div></li>
+            <li><div class="nav_title"><a href="./subpage_002.html">머신</a></div></li>
+            <li><div class="nav_title"><a href="./subpage_003.html">캡슐</a></div></li>
             <li><div class="nav_title"><a href="./subpage_004.html">액세서리</a></div></li>
             <li><div class="nav_title"><a href="./subpage_005.html">이벤트</a></div></li>
           </ul>
@@ -74,6 +74,7 @@
         <li class="act"><a href="#view_01"><span>제품 01</span></a></li>
         <li><a href="#view_01"><span>제품 02</span></a></li>
         <li><a href="#view_01"><span>제품 03</span></a></li>
+        <li><a href="#view_01"><span>제품 04</span></a></li>
       </ul>
     </div>
       <div class="viewbox_inner">
@@ -81,6 +82,7 @@
           <li class="view_01"><span>상품 01</span></li>
           <li class="view_02"><span>상품 02</span></li>
           <li class="view_03"><span>상품 03</span></li>
+          <li class="view_04"><span>상품 04</span></li>
         </ul>
       </div>
     
@@ -93,19 +95,21 @@
         <ul class="menu_narr">
           <li class="best">your cafe at home</li>
           <li class="best_narr">
-            with the aroma and taste of freshly brewed coffee
-            I like spending more time at home.
-            It's going to be even more fun.
-            My house will be your cafe.</li>
-            <div class="menu_more"><a href="./subpage_001.html">메뉴 더보기 &rarr;</a></div>
+            With the aroma and taste of freshly brewed coffee<br />
+            I like spending more time at home.<br />
+            It's going to be even more fun.<br />
+            My house will be your cafe.
+          </li>
+            <div class="menu_more"><a href="./subpage_001.html">자세히보기 &rarr;</a></div>
         </ul>
 
-        <div class="part movie">
-          <video class="video" controls autoplay muted 
-            preload="auto" loop poster="../img/bg/background_002.jpg">
-            <source src="../media/video/Pexels_1851768.webm" type="video/webm">
-            <source src="../media/video/Pexels_1851768.mp4" type="video/mp4">
-          </video>
+        <div class="part video">
+          <iframe
+          src="https://www.youtube.com/embed/QmhfW2gEBuA" 
+          title="YouTube video player" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+          gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
         </div>
           
       </div>
@@ -116,7 +120,11 @@
         <h2 class="blind">단체 주문</h2>
         <div class="orderBox_inner">
           <ul class="order">
-            <li><a href="./subpage_002.html"></a></li>
+            <li>최고의 한 잔을 위해</li>
+            <li>원두 선택부터 블렌딩 및 로스팅까지.<br />
+              콩을 갈아서 신선도를 캡슐에 조심스럽게 밀봉합니다.<br />
+              숙련된 커피 장인의 기술과 집념은 모든 과정에서 빛을 발합니다.
+            </li>
           </ul>
         </div>
       </article>
@@ -126,18 +134,20 @@
         <h2 class="blind">머신 제품 소개</h2>
         <div class="lcb_indicator">
           <ul>
-            <li class="act"><a href="#lcb_view_01"><span>제품 01</span></a></li>
-            <li><a href="#lcb_view_01"><span>제품 02</span></a></li>
-            <li><a href="#lcb_view_01"><span>제품 03</span></a></li>
+            <li class="act"><a href="#lcb_view_01"><span class="blind">제품 01</span></a></li>
+            <li><a href="#lcb_view_01"><span class="blind">제품 02</span></a></li>
+            <li><a href="#lcb_view_01"><span class="blind">제품 03</span></a></li>
+            <li><a href="#lcb_view_01"><span class="blind">제품 04</span></a></li>
+            <li><a href="#lcb_view_01"><span class="blind">제품 05</span></a></li>
           </ul>
         </div>
         <div class="lcb_inner">
           <ul class="clearfix">
-            <li class="lcb_view_01"><span>상품 01</span></li>
-            <li class="lcb_view_02"><span>상품 02</span></li>
-            <li class="lcb_view_03"><span>상품 03</span></li>
-            <li class="lcb_view_04"><span>상품 04</span></li>
-            <li class="lcb_view_05"><span>상품 05</span></li>
+            <li class="lcb_view_01"><span class="blind">상품 01</span></li>
+            <li class="lcb_view_02"><span class="blind">상품 02</span></li>
+            <li class="lcb_view_03"><span class="blind">상품 03</span></li>
+            <li class="lcb_view_04"><span class="blind">상품 04</span></li>
+            <li class="lcb_view_05"><span class="blind">상품 05</span></li>
           </ul>
         </div>
 
@@ -157,34 +167,40 @@
         </dl>
       </div>
     </article>
-        
     <!-- introduceBox // ================================================= -->
     
     <article id="subcontentBox">
       <h2 class="blind">subcontent</h2>
       <div class="scb_inner">
         <ul class="con_01">
-          <li class="con_01_img">sdf</li>
-          <li class="con_01_narr">sdf</li>
+          <li class="con_01_img"><span class="blind">커피 머신 등록</li>
+          <li>커피 머신 등록</li>
+          <li>커피 머신을 등록하고<br />웰컴 쿠폰을 사용하세요.</li>
+          <li><a href="./subpage_001.html">등록 바로가기 &rarr;</a></li>
         </ul>
         <ul class="con_02">
-          <li class="con_02_img">sdf</li>
-          <li class="con_02_narr">sdf</li>
+          <li class="con_02_img"><span class="blind">스타벅스 캡슐</span></li>
+          <li>스타벅스 캡슐<br />정기 배송 상품권 출시</li>
+          <li>웰컵 쿠폰 사용 시<br /> 1만원 즉시 할인</li>
+          <li><a href="./subpage_001.html">자세히보기 &rarr;</a></li>
         </ul>
         <ul class="con_03">
-          <li class="con_03_img">sdf</li>
-          <li class="con_03_narr">sdf</li>
+          <li class="con_03_img"></li>
+          <li>캡슐 정기배송 '캡슐투도어'</li>
+          <li>매월 26,700원으로<br />캡슐 3박스 무료 배송<br />그리고 커피 머신까지!</li>
+          <li><a href="./subpage_001.html">자세히보기 &rarr;</a></li>
         </ul>
         <ul class="con_04">
-          <li class="con_04_img">sdf</li>
-          <li class="con_04_narr">sdf</li>
+          <li class="con_04_img"></li>
+          <li>아메리카노 모닝레인지</li>
+          <li>당신의 아침을 바꾸는 착한 모닝 커피</li>
+          <li><a href="./subpage_001.html">구매 바로가기 &rarr;</a></li>
         </ul>
 
       </div>
 
     </article>
-
-    <!-- subcontentBox // -->
+    <!-- subcontentBox // ================================================ -->
     
       <footer id="infoBox">
         <address class="infoBox_inner">
