@@ -24,5 +24,30 @@
     indiLi.eq(n).addClass('act');                
     indiLi.eq(n).siblings().removeClass('act');       
   });
+  // viewBox //
+
+  var locationBox = $('#locationBox');
+  var lcbIndicator = locationBox.find('.lcb_indicator');
+  var lcbIndiUl = lcbIndicator.find('ul');
+  var lcbIndiLi = lcbIndiUl.find('li');
+  var lcbIndiLink = lcbIndiLi.find('a');
+
+  var lcbInner = locationBox.find('.lcb_inner');
+  var lcbInnerUl = lcbInner.find('ul');
+
+  var n = 0;
+
+  lcbIndiLink.on('click', function(e){  
+    e.preventDefault();                           
+
+    var _thisI = $(this).parent().index();  
+    n = _thisI;                             
+
+    lcbInnerUl.stop().animate({marginLeft: (-100*n) + '%'})
+
+    lcbIndiLi.eq(n).addClass('act');                
+    lcbIndiLi.eq(n).siblings().removeClass('act');  
+  });
+  // locationBox //
 
 })(jQuery);
