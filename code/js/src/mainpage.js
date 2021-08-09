@@ -27,13 +27,13 @@
   // viewBox // ========================================= //
 
   var locationBox = $('#locationBox');
-  var indicator = viewBox.find('.indicator');
+  var indicator = locationBox.find('.indicator');
   var indiUl = indicator.find('ul');
   var indiLi = indiUl.find('li');
   var indiLink = indiLi.find('a');
 
-  var viewBoxInner = viewBox.find('.viewbox_inner');
-  var viewBoxInnerUl = viewBoxInner.find('ul');
+  var locBoxInner = locationBox.find('.locbox_inner');
+  var locBoxInnerUl = locBoxInner.find('ul');
 
   var n = 0;
 
@@ -43,7 +43,7 @@
     var _thisI = $(this).parent().index();  
     n = _thisI;                             
 
-    viewBoxInnerUl.stop().animate({marginLeft: (-100*n) + '%'})
+    locBoxInnerUl.stop().animate({marginLeft: (-100*n) + '%'})
 
     indiLi.eq(n).addClass('act');                
     indiLi.eq(n).siblings().removeClass('act');       
