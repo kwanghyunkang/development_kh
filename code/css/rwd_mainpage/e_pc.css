@@ -290,7 +290,7 @@ h1 a {
   width: 100%; height: 800px;
   margin:auto;
   margin-top:6.25rem; margin-bottom:18.75rem;
-  background-color: #777;
+  /* background-color: #777; */
 }
 .indicator {
   position:absolute;
@@ -322,19 +322,19 @@ h1 a {
 }
 /* indicator // */
 
-.viewbox_inner {
+.locbox_inner {
  overflow:hidden;
  width: 100%; height: 900px;
  margin:auto;
  box-sizing: border-box;
 }
-.viewbox_inner ul {
- width: 400%; height: 100%;
+.locbox_inner ul {
+ width: 500%; height: 100%;
  margin:0; padding:0; border:0;
 }
-.viewbox_inner li {
+.locbox_inner li {
  float:left;
- width:calc(100% / 4); height:100%;
+ width:calc(100% / 5); height:100%;
  margin:0; padding:0; border:0;
  box-sizing: border-box;
  list-style:none;
@@ -363,7 +363,12 @@ h1 a {
  background-repeat: no-repeat;
  background-position: 50% 50%;
 }
-
+.view_05 {
+  background-image:url("../../img/______PC_3.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+ }
 
 /* locationBox // ============================================================== */
 
