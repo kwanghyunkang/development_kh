@@ -121,7 +121,7 @@ h1 a {
    position:absolute;
    width: auto; height: auto;
    margin:auto; 
-   margin-top: 740px; margin-left:865px;
+   margin-top: 740px; margin-left:850px;
    border-radius:3rem;
  }
  .indicator li {
@@ -289,23 +289,24 @@ h1 a {
   position: relative;
   width: 100%; height: 800px;
   margin:auto;
-  margin-top:6.25rem; margin-bottom:18.75rem;
-  /* background-color: #777; */
+  margin-top:25rem; margin-bottom:25rem;
+  background-color: #777;
 }
-.indicator {
+#locationBox span { display: none; }
+.loc_indicator {
   position:absolute;
   width: auto; height: auto;
   margin:auto; 
-  margin-top: 740px; margin-left:865px;
+  margin-top: 740px; margin-left:800px;
   border-radius:3rem;
 }
-.indicator li {
+.loc_indicator li {
   display: inline-block;
   width: 2rem; height: 2rem;
   padding:0.3rem;
   margin-right:1rem;
 }
-.indicator li a {
+.loc_indicator li a {
   display: block;
   width: 120%; height: 10px;
   background-color: #aaa;
@@ -313,18 +314,18 @@ h1 a {
   box-sizing: border-box;
   transition:all 500ms ease;
 }
-.indicator li.act { width:2rem; }
-.indicator li.act a { background-color: #151515; }
+.loc_indicator li.act { width:2rem; }
+.loc_indicator li.act a { background-color: #151515; }
 
-.indicator a:hover {box-shadow: 0.2rem 0.2rem 0.2rem #151515;}
-.indicator a:focus {
+.loc_indicator a:hover {box-shadow: 0.2rem 0.2rem 0.2rem #151515;}
+.loc_indicator a:focus {
   outline:0; border: 2px solid #151515;
 }
 /* indicator // */
 
 .locbox_inner {
  overflow:hidden;
- width: 100%; height: 900px;
+ width: 100%; height: 700px;
  margin:auto;
  box-sizing: border-box;
 }
@@ -338,34 +339,35 @@ h1 a {
  margin:0; padding:0; border:0;
  box-sizing: border-box;
  list-style:none;
+ font-size:40px; font-weight: 700;
 }
-.view_01 {
- background-image:url("../../img/0726_Webshop_Web.jpg");
- background-size: 100% auto;
+.loc_view_01 {
+ background-image:url("../../img/machine_item04.jpg");
+ background-size: 60% auto;
  background-repeat: no-repeat;
  background-position: 50% 50%;
 }
-.view_02 { 
- background-image:url("../../img/NDG_KV_variation_210630__Rolling_Banner_PC_965x371.jpg");
- background-size: 100% auto;
+.loc_view_02 { 
+ background-image:url("../../img/machine_item01.jpg");
+ background-size: 60% auto;
  background-repeat: no-repeat;
  background-position: 50% 50%;
 }
-.view_03 {
- background-image:url("../../img/______PC_3.jpg");
- background-size: 100% auto;
+.loc_view_03 {
+ background-image:url("../../img/machine_item02.jpg");
+ background-size: 60% auto;
  background-repeat: no-repeat;
  background-position: 50% 50%;
 }
-.view_04 {
+.loc_view_04 {
  background-image:url("../../img/_S_____PC.jpg");
- background-size: 100% auto;
+ background-size: 60% auto;
  background-repeat: no-repeat;
  background-position: 50% 50%;
 }
-.view_05 {
+.loc_view_05 {
   background-image:url("../../img/______PC_3.jpg");
-  background-size: 100% auto;
+  background-size: 60% auto;
   background-repeat: no-repeat;
   background-position: 50% 50%;
  }
@@ -561,13 +563,13 @@ h1 a {
 #infoBox {
   width: auto;
   height:auto;
-  padding-top:2.5rem; padding-bottom:3.125rem;
+  padding-top:40px; padding-bottom:50px;
   background-color: #623224;
 }
 .infoBox_inner {
-  width:68.75rem; height: 15.625rem;
+  width:68.75rem; height: 150px;
   margin:auto;
-  /* background-color: #faf; */
+  background-color: #faf;
   color:#fff;
 }
 h2 {

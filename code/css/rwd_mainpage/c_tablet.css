@@ -12,16 +12,16 @@
     position:fixed; z-index:1000;
     width: 100%; height:4rem;
     background-color: #fff;
-    border-bottom:3px solid #fab40a;
+    border-bottom:3px solid #623224;
   }
   .container { width: 100%; height: 100%; }
 
   h1 a {
     position:absolute; top:0; left:0; right:0;
-    width: 100px; height: 3rem; 
+    width: 100px; height: 80px; 
     margin:auto; margin-top:8px;
-    background-image:url("../../img/download.png");
-    background-size: 60% auto;
+    background-image:url("../../img/logo.png");
+    background-size: 70% auto;
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
@@ -29,8 +29,9 @@
   #unb {
     float:right;
     width: 6.25rem; height: 3rem;
-    padding:0.5rem; box-sizing: border-box;
-    /* background-color: #fff; */
+    margin-right:50px;
+    padding:8px; box-sizing: border-box;
+    /* background-color: #faf; */
   }
   .unb_list { width: 100%; height: 100%; }
 
@@ -39,12 +40,13 @@
     width:33.333333%; height: 100%;
     padding:5px; box-sizing: border-box;
     text-align:center; line-height:1.5rem;
+    /* background-color: #acf; */
    }
 
   #gnb {
     float:left;
     width: 3rem; height: 3rem;
-    padding:0.5rem; box-sizing: border-box;
+    margin-left:50px; box-sizing: border-box;
     /* background-color: #fa0; */
   }
     .gnb_btn {
@@ -110,7 +112,7 @@
     #viewBox {
       width: 100%; height: 500px;
       margin:auto;
-      background-image:url("../../img/main007.jpg");
+      background-image:url("../../img/_S_____PC.jpg");
       background-size:contain;
       background-repeat: no-repeat;
       background-position: 50% 50%;
