@@ -27,7 +27,7 @@
   // viewBox // ========================================= //
 
   var locationBox = $('#locationBox');
-  var indicator = locationBox.find('.indicator');
+  var indicator = locationBox.find('.loc_indicator');
   var indiUl = indicator.find('ul');
   var indiLi = indiUl.find('li');
   var indiLink = indiLi.find('a');
