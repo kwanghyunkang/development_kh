@@ -53,7 +53,6 @@
               <i class="line line3"></i>
             </button>
           </div>
-
           <ul class="gnb_list">
             <li><div class="nav_title"><a href="./subpage_001.html">네스카페 돌체구스토</a></div></li>
             <li><div class="nav_title"><a href="./subpage_002.html">머신</a></div></li>
@@ -67,24 +66,24 @@
 
     <!-- headBox // ========================================================= -->
     
-  <section id="viewBox">
-  <h2 class="blind">광고영역</h2>
-    <div class="indicator">
-      <ul>
-        <li class="act"><a href="#view_01"><span>제품 01</span></a></li>
-        <li><a href="#view_01"><span>제품 02</span></a></li>
-        <li><a href="#view_01"><span>제품 03</span></a></li>
-        <li><a href="#view_01"><span>제품 04</span></a></li>
-      </ul>
-    </div>
-      <div class="viewbox_inner">
+    <section id="viewBox">
+      <h2 class="blind">광고영역</h2>
+      <div class="indicator">
         <ul class="clearfix">
-          <li class="view_01"><span>상품 01</span></li>
-          <li class="view_02"><span>상품 02</span></li>
-          <li class="view_03"><span>상품 03</span></li>
-          <li class="view_04"><span>상품 04</span></li>
+          <li class="act"><a href="#view_01"><span>제품 01</span></a></li>
+          <li><a href="#view_01"><span>제품 02</span></a></li>
+          <li><a href="#view_01"><span>제품 03</span></a></li>
+          <li><a href="#view_01"><span>제품 04</span></a></li>
         </ul>
-      </div>
+     </div>
+     <div class="viewbox_inner">
+      <ul class="clearfix">
+        <li class="view_01"><span>상품 01</span></li>
+        <li class="view_02"><span>상품 02</span></li>
+        <li class="view_03"><span>상품 03</span></li>
+        <li class="view_04"><span>상품 04</span></li>
+      </ul>
+     </div>
     
     </section>
     <!-- viewBox // ========================================================= -->
@@ -133,12 +132,11 @@
       <article id="locationBox">
         <h2 class="blind">머신 제품 소개</h2>
         <div class="loc_indicator">
-          <ul>
+          <ul class="clearfix">
             <li class="act"><a href="#view_01"><span>제품 01</span></a></li>
             <li><a href="#view_01"><span>제품 02</span></a></li>
             <li><a href="#view_01"><span>제품 03</span></a></li>
             <li><a href="#view_01"><span>제품 04</span></a></li>
-            <li><a href="#view_01"><span>제품 05</span></a></li>
           </ul>
         </div>
           <div class="locbox_inner">
@@ -149,7 +147,6 @@
               <li class="loc_view_02"><span>상품 02</span></li>
               <li class="loc_view_03"><span>상품 03</span></li>
               <li class="loc_view_04"><span>상품 04</span></li>
-              <li class="loc_view_05"><span>상품 05</span></li>
             </ul>
           </div>
       </article>
@@ -203,20 +200,16 @@
     </article>
     <!-- subcontentBox // ================================================ -->
     
-      <footer id="infoBox">
-        <address class="infoBox_inner">
-          <h2><span class="blind">회사 소개</span></h2>
-            <dl>
-              <dt><a href="./subpage_005.html">회사 소개</a></dt>
-                <dd><a href="./subpage_005.html">개인정보 처리방침</a></dd>
-                <dd>대표전화:1661-5094</dd>
-                <dd>대표:현광식</dd>
-                <dd>서울특별시 도봉구 노해로 391 6층 1호(창동, 네네빌딩)</dd>
-                <dd>사업자번호:124-87-40615</dd>
-                <dd><span class="blind">copyright</span> &copy; 부자이웃CO., LTD. All rights reserved.</dd>
-            </dl>
-        </address>
-      </footer>
+    <footer id="infoBox">
+      <address class="infoBox_inner">
+        <h2><a href="#"><span class="blind">회사 소개</span></a></h2>
+          <h3><a href="#">기업 정보</a></h3>
+          <h3><a href="#">사이트 처리방침</a></h3>
+          <h3><a href="#">개인정보 보호 정책</a></h3>
+          <h3><a href="#">회원 서비스</a></h3>
+          <h3><a href="#">nestle home</a></h3>
+      </address>
+    </footer>
     <!-- infoBox // ====================================================== -->
 
   </div>
@@ -226,6 +219,7 @@
   <script src="../js/jquery/device_temp.js"></script>
   <!-- $.ajax(), 선택자 load() -->
   <script src="../js/src/mainpage.js"></script>
+  <script src="../js/src/mainpage_locationBox.js"></script>
 
 </body>
 </html>
