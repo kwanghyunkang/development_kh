@@ -25,29 +25,5 @@
     indiLi.eq(n).siblings().removeClass('act');       
   });
   // viewBox // ========================================= //
-
-  var locationBox = $('#locationBox');
-  var indicator = locationBox.find('.loc_indicator');
-  var indiUl = indicator.find('ul');
-  var indiLi = indiUl.find('li');
-  var indiLink = indiLi.find('a');
-
-  var locBoxInner = locationBox.find('.locbox_inner');
-  var locBoxInnerUl = locBoxInner.find('ul');
-
-  var n = 0;
-
-  indiLink.on('click', function(e){  
-    e.preventDefault();                           
-
-    var _thisI = $(this).parent().index();  
-    n = _thisI;                             
-
-    locBoxInnerUl.stop().animate({marginLeft: (-100*n) + '%'})
-
-    indiLi.eq(n).addClass('act');                
-    indiLi.eq(n).siblings().removeClass('act');       
-  });
-  
  
 })(jQuery);
