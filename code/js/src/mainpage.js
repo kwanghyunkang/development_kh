@@ -2,6 +2,7 @@
 (function($){
   // jQuery
 
+  // 변수 생성
   var viewBox = $('#viewBox');
   var indicator = viewBox.find('.indicator');
   var indiUl = indicator.find('ul');
@@ -13,6 +14,7 @@
 
   var n = 0;
 
+  // 이벤트
   indiLink.on('click', function(e){  
     e.preventDefault();                           
 
