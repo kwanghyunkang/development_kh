@@ -218,18 +218,18 @@ h1 a {
   height:auto;
   padding-top:4.375rem; padding-bottom:6.25rem;
   /* border-bottom:1px solid #333; */
-  /* background-color: #555; */
+  background-color: #555;
 }
 .mcbox_inner {
   width: 1900px; height: 700px;
   margin:auto;
-  /* background-color: #abc; */
+  background-color: #abc;
 }
 .menu_narr {
   float:left;
   width: 600px; height: 500px;
   margin-top:100px; margin-left:250px;
-  /* background-color: #ddd; */
+  background-color: #ddd;
 }
 .best {
   width: 500px; height: 100px;
@@ -245,14 +245,24 @@ h1 a {
   font-size:28px;
   text-align: center;
 }
-.menu_more {
-  width: 9.375rem; height: 1.875rem;
-  margin:auto;
-  margin-top:100px;
-  padding-top:0.625rem;
+.menu_narr button {
+  display: block; box-sizing:border-box;
+  width: 9.375rem; height: 30px;
+  margin-left:13.75rem; margin-top:50px;
   font-size:20px; font-weight:700; text-align:center; color:#623224;
   border:1px solid #623224;
+  background-color: #fff;
+  box-shadow:0px 5px 10px -8px rgba(0,0,0,0.5);
+  transition:all 300ms ease-in-out;
 }
+.menu_narr button:focus,
+.menu_narr button:hover {
+  border:0;
+  box-shadow:0px 15px 15px -8px rgba(0,0,0,0.5);
+  transform:translateY(-10px);
+  background-color: #623224; color:#fff;
+}
+
 .video iframe {
   float:right;
   width:800px; height:500px; 
@@ -460,12 +470,12 @@ h1 a {
   width: 1200px; height: 2000px;
   padding-top:100px; margin-bottom:100px;
   margin:auto;
-  /* background-color: #ddd; */
+  background-color: #ddd;
 }
 .scb_inner .con_01 {
   width: 700px; height: 300px;
   margin:auto; margin-bottom:200px;
-  /* background-color: #ccc; */
+  background-color: #ccc;
 }
 .con_01 .con_01_img {
   float:left;
@@ -486,6 +496,17 @@ h1 a {
   padding-top:50px;
   font-size:24px; font-weight:700; text-align:right;
   color:#623224;
+  /* background-color: #fff; */
+  transition:all 300ms ease-in-out;
+}
+.con_01 li:nth-child(4):hover {
+  /* padding-top:50px; */
+  border:0;
+  box-shadow:0px 15px 15px -8px rgba(0,0,0,0.5);
+  transform:translateY(-10px);
+  /* font-size:24px; font-weight:700; text-align:right; */
+  color:#fff;
+  background-color: #623224;
 }
 
 .scb_inner .con_02 {
